@@ -1,11 +1,12 @@
-# Ativar o login (Firebase)
+# Ativar o login com Google (Firebase)
 
 O site já tem a tela de login pronta. Ela só aparece depois que o arquivo
 `firebase-config.js` recebe a configuração de um projeto Firebase.
 
 1. Entre em https://console.firebase.google.com com uma conta Google e clique em
    **Criar projeto** (pode desativar o Google Analytics).
-2. **Authentication → Vamos começar → E-mail/senha → Ativar → Salvar.**
+2. **Authentication → Vamos começar → Google → Ativar**, escolha o e-mail de
+   suporte e clique em **Salvar**.
 3. **Authentication → Configurações → Domínios autorizados → Adicionar domínio:**
    `cftp2026-hash.github.io`
 4. **Firestore Database → Criar banco de dados** (local `southamerica-east1`,
@@ -29,4 +30,4 @@ O site já tem a tela de login pronta. Ela só aparece depois que o arquivo
 Esses dados não são secretos: o Firebase foi feito para eles ficarem no site.
 Quem protege o progresso de cada pessoa são as regras do passo 4.
 
-Para ver ou desativar contas: **Authentication → Usuários**.
+Para ver quem entrou ou desativar uma conta: **Authentication → Usuários**.
